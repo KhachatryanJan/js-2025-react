@@ -1,0 +1,16 @@
+.num-cricle{
+    width: 18px;
+    height: 18px;
+    background-color:#ff9f28 ;
+    border-radius: 50%;
+
+    position: absolute;
+    z-index: 1;
+    margin-top: -9px;
+    margin-left: -4px;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    
+}
+

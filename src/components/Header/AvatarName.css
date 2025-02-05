@@ -1,0 +1,20 @@
+.avat-name{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.name-p{
+    font-size: 14px;
+    color:#787878;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.sing-img{
+    width: 12px;
+    height: 11px;
+    margin-top: 50px;
+    pointer-events: auto;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}

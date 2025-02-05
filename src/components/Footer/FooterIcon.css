@@ -1,0 +1,14 @@
+
+.box-3{
+    display: flex;
+    flex-direction: row;
+}
+.footer-icon2{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: -280px;
+    margin-left:1060px ;
+    width: 24px;
+    height: 18.28px;
+}

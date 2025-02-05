@@ -1,0 +1,19 @@
+.avat{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.avat-img{
+    width: 37px;
+    height: 37px;
+    margin-top: 40px;
+    margin-left:40px ;
+}
+
+.avat-p{
+    font-size: 24px;
+    color:#fff;
+    margin-top: -37px;
+    margin-left: 50px;
+}

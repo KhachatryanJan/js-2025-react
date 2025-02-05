@@ -1,0 +1,38 @@
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top:70px ;
+    margin-left: 380px;
+}
+.butt-sig{
+    width: 275px;
+    height: 59px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #ffff;
+    color:#56ccf2 ;
+    font-size: 20px;
+    
+    
+}
+.butt-sig:hover{
+  background-color: #56ccf2;
+  color: #ffff;
+}
+
+.butt-sig1{
+    width: 275px;
+    height: 59px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #ffff;
+    color:#56ccf2 ;
+    font-size: 20px;
+}
+.butt-sig1:hover{
+    background-color: #56ccf2;
+    color: #ffff;
+  }
+  

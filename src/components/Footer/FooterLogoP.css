@@ -1,0 +1,25 @@
+.footer-log{
+    margin-left: 380px;
+   margin-top: 64px;
+   width: 203px;
+   height: 53px;
+}
+
+.footer-p{
+    width: 360px;
+    height: 90px;
+    margin-left: 380px;
+    top: 145px;
+    color: #afafaf;
+    font-size: 12px;
+}
+
+.footer-p-tex{
+   
+    color: #afafaf;
+    margin-top: 20px;
+
+}
+.p-marg{
+    top:20px;
+}

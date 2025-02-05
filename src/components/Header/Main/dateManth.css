@@ -1,0 +1,26 @@
+
+
+.data-videomunication {
+    display: flex;
+    flex-direction: row;
+}
+.data {
+    width: 165px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.video {
+    width: 27px;
+    height: 27px;
+    margin-left: 30px;
+    margin-top: 8px
+}
+
+.video-p {
+    font-size: 15px;
+    color: #4f4f4f;
+    margin-left: 10px;
+    margin-top: 10px
+}

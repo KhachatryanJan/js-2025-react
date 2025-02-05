@@ -1,0 +1,17 @@
+
+.MyInfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+    margin-left: 250px;
+    margin-bottom: 52px;
+    gap:30px
+}
+
+.MyInfo-p{
+    font-size: 12px;
+    color: #a0a0a0;
+}
+.MyInfo-p:hover{
+    color: black;
+}

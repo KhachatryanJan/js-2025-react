@@ -1,0 +1,68 @@
+.Butt-Planned-ViewEntry-ViewTheResolution {
+    margin-left: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.but3 {
+    width: 140px;
+    height: 27px;
+    background-color: #FFAB43;
+    margin-left: 750px;
+    margin-top: -160px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Planned {
+    font-size: 15px;
+    color: #504F4F;
+    margin-top: 4px;
+}
+
+.Planned {
+    font-size: 15px;
+    color: #504F4F;
+    margin-top: 4px;
+}
+
+.but4 {
+    width: 225px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #56CCF2;
+    border: none;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+
+.but5 {
+    width: 225px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F6F8FB;
+    border: none;
+    margin-left: 670px;
+}
+
+.ViewEntry {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ViewTheResolution {
+    color: #A7A7A7;
+    font-size: 15px;
+}
+
+.doc-cont2 {
+    margin-top: 20px;
+    width: 1160px;
+    height: 193px;
+    border: 0.5px solid #d1d1d1;
+    box-shadow: 1px 1px 10px 5px #d1d1d1;
+    border-radius: 10px;
+}

@@ -1,0 +1,9 @@
+.footer-icon{
+    margin-left: 380px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 24px;
+    height: 24px;
+ }
