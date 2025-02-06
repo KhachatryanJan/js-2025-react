@@ -1,4 +1,4 @@
-import card from "./images/credit-card (3) 1.png"
+import card from "../images/credit-card (3) 1.png"
 
 function TopUpBalance(){
     return(

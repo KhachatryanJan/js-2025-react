@@ -1,4 +1,4 @@
-import user from "./images/user (3) 1.png"
+import user from "../images/user (3) 1.png"
 function MYProfile(){
     return(
         <div className="MyProfile">

@@ -1,4 +1,4 @@
-import help from "./images/help (1) 1.png"
+import help from "../images/help (1) 1.png"
 
 function FAQ(){
     return(

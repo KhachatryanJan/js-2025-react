@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./AvatarName.css"
 import sing from "../images/sing.png"
-import UserPaje from "../UserPaje"
+import UserPaje from "./UserPaje"
 
 function AvatarName() {
   const [userInfo, setUserInfo] = useState(false)
@@ -13,13 +13,12 @@ function AvatarName() {
           setUserInfo(!userInfo)
         }} ></img>
       </div>
+
+      
       <div className={` ${userInfo ? "active-info":""}`}>
         <UserPaje />
       </div>
-      {userInfo && <div className="active-info">
-        <UserPaje />
-
-        </div>}
+      
       
     </>
   )

@@ -1,4 +1,4 @@
-import logout from "./images/logout (1) 1.png"
+import logout from "../images/logout (1) 1.png"
 
 
 function LogOut(){
