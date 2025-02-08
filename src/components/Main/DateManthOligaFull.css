@@ -1,0 +1,138 @@
+.doc-cont1 {
+    width: 1160px;
+    height: 193px;
+    border: 0.5px solid #d1d1d1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px #d1d1d1;
+    margin-left: 380px;
+    margin-top: 20px;
+
+}
+
+.data-videomunication {
+    display: flex;
+    flex-direction: row;
+}
+.data {
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.dat{
+    font-size: 14px;
+    color:#4f4f4f;
+    margin-top:8px ;
+    margin-left: 10px;
+}
+.hour{
+    width: 16px;
+    height: 16px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.clock{
+   margin-top:7px;
+   margin-left: 10px;
+   font-size: 14px;
+   color:#4f4f4f;
+}
+.video {
+    width: 27px;
+    height: 27px;
+    margin-left: 50px;
+    margin-top: 5px
+}
+
+.video-p {
+    font-size: 15px;
+    color: #4f4f4f;
+    margin-left: 20px;
+    margin-top: 7px
+}
+
+.Oliga {
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.doc-name-experience {
+    margin-left:160px;
+    margin-top: -135px;
+    
+}
+
+.name {
+    font-size: 18px;
+    color: #4f4f4f;
+}
+
+.Pediatrician {
+    font-size: 18px;
+    color: #AAAAAA;
+    margin-top: -10px;
+}
+
+.experience {
+    font-size: 18px;
+    color: #4F4F4F;
+    margin-top: -10px;
+}
+
+.Butt-Planned-ViewEntry-ViewTheResolution {
+    margin-left: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.but3 {
+    width: 140px;
+    height: 27px;
+    background-color: #FFAB43;
+    margin-left: 750px;
+    margin-top: -160px;
+    border-radius: 5px;
+    border: none;
+}
+
+.but4 {
+    width: 225px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #56CCF2;
+    border: none;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+
+.but5 {
+    width: 225px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F6F8FB;
+    border: none;
+    margin-left: 670px;
+}
+
+.Planned {
+    font-size: 15px;
+    color: #504F4F;
+    margin-top: 4px;
+}
+
+.ViewEntry {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.ViewTheResolution {
+    color: #A7A7A7;
+    font-size: 15px;
+}

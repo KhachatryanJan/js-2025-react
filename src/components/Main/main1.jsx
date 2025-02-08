@@ -3,7 +3,7 @@ import SignUpButton from "./SignUpButton"
 import DoctorImg from "./DoctorImg"
 import MakeAnAppointmenWithADoctor from "./MakeAnAppointment"
 import Mynots from "./Mynotes"
-import DateManthOligaFull from "./DateManthOligaFull"
+
 
 
 

@@ -1,9 +1,9 @@
 import "./MakeAnAppointment.css"
-import doctor from "../../images/Doctotr.png"
-import yelloCir from "../../images/yelloCir.png"
+import doctor from "../images/Doctotr.png"
+import yelloCir from "../images/yelloCir.png"
 import { useContext } from "react"
-import { LanguageContexte } from "../../../context/languageContexte"
-import { translate } from "../../../utils/translate"
+import { LanguageContexte } from "../../context/languageContexte"
+import { translate } from "../../utils/translate"
 
 function MakeAnAppointmenWithADoctor() {
     const {lang}=useContext(LanguageContexte)

@@ -6,7 +6,7 @@ import SubOrangCirc from "./subOrangCric"
 import AvatarNameSing from "./AvatarNameSing"
 import Langvige from "./Langvige"
 
-import Main from "./Main/main1"
+import Main from "../Main/main1"
 
 
 function HeaderFull(){
