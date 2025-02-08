@@ -15,9 +15,7 @@ function Main() {
             <DoctorImg />
             <MakeAnAppointmenWithADoctor/>
             <Mynots/>
-            <DateManthOligaFull />
-            <DateManthOligaFull />
-            <DateManthOligaFull />
+           
            
         </>
     )
