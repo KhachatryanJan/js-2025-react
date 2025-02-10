@@ -1,0 +1,173 @@
+.Main-info{
+   background-color: aqua;
+}
+
+
+.Doctors-profile {
+    background-color: #56CCF2;
+    width: 1920px;
+    height: 316px;
+}
+
+.Doctors-Pediatrician-Doctors-profile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 380px;
+    gap: 20px;
+}
+
+.Doctors-p {
+    font-family: 12px;
+    color: #A0A0A0;
+}
+
+.Doctors-p:hover {
+    color: #FFFFFF;
+}
+
+.vector-2 {
+    width: 6px;
+    height: 10px;
+    margin-top: 25px
+}
+
+.Olga-img-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 380px;
+    gap: 30px;
+}
+
+.olg-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 40px;
+
+}
+
+.olga-info {
+    margin-top: 10px;
+
+}
+
+.olga {
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+
+.Pediatrician1 {
+    font-size: 18px;
+    color: #ffffff
+}
+
+.experience1 {
+    font-size: 18px;
+    color: #FFFF
+}
+
+.consultation-minutes {
+    margin-left: 550px;
+    margin-top: 20px;
+    font-family: 18px;
+    color: #ffffff
+}
+
+.Nearest-entry {
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    margin-top: 90px;
+    gap: 20px
+}
+
+.grape {
+    width: 28px;
+    height: 28px;
+    margin-top: 15px;
+
+}
+
+.Nearest-entry-p {
+    font-size: 18px;
+    color: #56CCF2;
+}
+
+.week-p {
+    color: #504F4F;
+    font-size: 14px;
+    margin-left: 390px;
+}
+
+.Education {
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.mort-img {
+    width: 33px;
+    height: 33px;
+    margin-top: 15px;
+}
+
+.Education-p{
+    font-size: 18px;
+    color: #56CCF2;
+}
+
+.year{
+    font-size: 14px;
+    color:#4f4f4f;
+    margin-left: 390px;
+}
+
+.SpecializesInTreatment{
+    display: flex;
+    flex-direction: row;
+    margin-left: 390px;
+    margin-top:40px ;
+    gap: 20px;
+}
+
+.grap1{
+    width: 34px;
+    height: 34px;
+    margin-top: 10px;
+
+}
+
+.SpecializesInTreatment-p{
+    font-size: 18px;
+    color: #56CCF2;
+}
+.lorem-p{
+    font-family: 14px;
+    color: #4f4f4f;
+    margin-left: 390px;
+}
+
+.Additionally{
+ display: flex;
+ flex-direction: row;
+ margin-left: 390px;
+ margin-top:40px ;
+ gap: 20px;
+}
+
+.grap3{
+    width: 34px;
+    height: 34px;
+    margin-top: 10px;
+}
+
+.Additionally-p{
+    font-size: 18px;
+    color: #56CCF2;
+}
+    
+
+

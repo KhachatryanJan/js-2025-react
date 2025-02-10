@@ -6,12 +6,16 @@ import clock from "../images/clock 1.png"
 import video from "../images/video-camera .png"
 import { useContext } from "react"
 import oliga from "../images/Oliga.png"
+import { Link } from "react-router-dom"
+
+
 
 
 function DateManthOligaFull(doc) {
 
    const { lang } = useContext(LanguageContexte)
-
+ 
+ 
    return (
       < div className="doc-cont1">
 
@@ -36,10 +40,10 @@ function DateManthOligaFull(doc) {
 
          <div className="Butt-Planned-ViewEntry-ViewTheResolution">
             <button className="but3"><p className="Planned">{translate("Planned",lang)}</p></button>
-            <button className="but4"><p className="ViewEntry">{translate("ViewTheRecording",lang)}</p></button>
+          <Link to={`/docinfo/${doc.id}`}> <button className="but4"><p className="ViewEntry">{translate("ViewTheRecording",lang)}</p></button></Link> 
             <button className="but5"><p className="ViewTheResolution">{translate("ViewTheDecree",lang)}</p></button>
         </div>
-       
+      
       </div>
    )
 }

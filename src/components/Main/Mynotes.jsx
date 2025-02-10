@@ -5,55 +5,61 @@ import { LanguageContexte } from "../../context/languageContexte"
 import { translate } from "../../utils/translate"
 import doctorsDate from "../../DoctorsInfromation/doctorsInfromation.json"
 import DateManthOligaFull from "./DateManthOligaFull"
+import { Link } from "react-router-dom"
+
+
 
 function Mynots() {
     const { lang } = useContext(LanguageContexte)
 
+
     const currentDate = new Date();
 
-    const pastAppointments = useMemo(() => {
+    const pastFuttments = useMemo(() => {
         return doctorsDate.filter((item) => {
             const itemDate = new Date(item.date);
             return itemDate < currentDate
         })
     }, [doctorsDate, currentDate])
+    const but = () => {
+        console.log("ff:", pastFuttments)
 
-    const futureAppointments = useMemo(() => {
+    }
+
+    const Futtments = useMemo(() => {
         return doctorsDate.filter((item) => {
             const itemDate = new Date(item.date);
             return itemDate > currentDate
         })
     }, [doctorsDate, currentDate])
 
-    const handlePastClick = () => {
-        console.log("Past Appointments:", pastAppointments);
-    };
+    const but1 = () => {
+        console.log("ff:", pastFuttments)
 
-    const handleFutureClick= () => {
-        console.log("Fff Appointments:",futureAppointments );
-    };
+    }
 
     return (
         <>
             <div className="my-notes"><p className="my-notes-p">{translate("MyEntries", lang)}</p></div>
-
             <div className="UpcomingPastCanceled">
-                <p className="hov-p" onClick={handlePastClick}>{translate("Upcoming", lang)}</p>
-                <p className="hov-p" onClick={handleFutureClick} >{translate("Past", lang)}</p>
+              <Link to="/Upcoming"> <p className="hov-p" onClick={but}>{translate("Upcoming", lang)}</p></Link>
+               <Link to="/Past" ><p className="hov-p"onClick={but1}  >{translate("Past", lang)}</p></Link>
                 <p className="hov-p">{translate("Canceled", lang)}</p>
-            </div>
+            </div >
 
-         
+
             {
-                pastAppointments.map((doc) => (
-                    <DateManthOligaFull key={doc.id} date={doc.date} name={doc.name} lastname={doc.lastname} hour={doc.hour}  profession={doc.profession} experience={doc.experience}/>
+                pastFuttments.map((doc) => (
+                    <DateManthOligaFull id={doc.id} {...doc} />
                 ))
+
             }
-         
-         {
-               futureAppointments.map((doc) => (
-                    <DateManthOligaFull key={doc.id} date={doc.date} name={doc.name} lastname={doc.lastname} hour={doc.hour}  profession={doc.profession} experience={doc.experience} />
+            
+            {
+                Futtments.map((doc) => (
+                    <DateManthOligaFull id={doc.id} {...doc} />
                 ))
+
             }
 
         </>

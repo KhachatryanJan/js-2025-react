@@ -1,82 +1,112 @@
 [
     {
+       "id":"1",
         "name":"Анна",
         "lastname":"Никонова",
         "experience":"Стаж 15 лет",
         "profession":"Педиатр",
         "date":"12.05.2023 ",
-        "hour":"12:00"
+        "hour":"12:00",
+        "consultation":"консультация",
+        "minutes":" 30 минут"
     },
-    {
+    { 
+        "id":"2",
         "name": "Мария",
         "lastname": "Смирнова",
         "experience": "Стаж 10 лет",
         "profession": "Терапевт",
         "date": "05.06.2025 ",
-        "hour":"10:30"
+        "hour":"10:30",
+        "consultation":"консультация",
+        "minutes":" 12 минут"
     },
     {
+        "id":"3",
         "name": "Екатерина",
         "lastname": "Павлова",
         "experience": "Стаж 12 лет",
         "profession": "Кардиолог",
         "date": "18.07.2023",
-        "hour":"14:15"
+        "hour":"14:15",
+        "consultation":"консультация",
+        "minutes":" 20 минут"
     },
     {
+        "id":"4",
         "name": "Ольга",
         "lastname": "Федорова",
         "experience": "Стаж 8 лет",
         "profession": "Офтальмолог",
         "date": "22.08.2025 ",
-        "hour":"09:45"
+        "hour":"09:45",
+        "consultation":"консультация",
+        "minutes":" 35 минут"
     },
     {
+        "id":"5",
         "name": "Александра",
         "lastname": "Кузнецова",
         "experience": "Стаж 20 лет",
         "profession": "Невролог",
         "date": "10.09.2023 ",
-        "hour":"11:20"
+        "hour":"11:20",
+        "consultation":"консультация",
+        "minutes":" 30 минут"
     },
     {
+        "id":"6",
         "name": "Надежда",
         "lastname": "Иванова",
         "experience": "Стаж 17 лет",
         "profession": "Дерматолог",
         "date": "03.10.2023 ",
-        "hour":"13:50"
+        "hour":"13:50",
+        "consultation":"консультация",
+        "minutes":" 15 минут"
     },
     {
+        "id":"7",
         "name": "Светлана",
         "lastname": "Морозова",
         "experience": "Стаж 14 лет",
         "profession": "Эндокринолог",
         "date": "25.11.2025",
-        "hour":" 16:10"
+        "hour":" 16:10",
+        "consultation":"консультация",
+        "minutes":" 10 минут"
     },
     {
+        "id":"8",
         "name": "Дарья",
         "lastname": "Соколова",
         "experience": "Стаж 9 лет",
         "profession": "Гастроэнтеролог",
         "date": "07.12.2023",
-        "hour":"08:40"
+        "hour":"08:40",
+        "consultation":"консультация",
+        "minutes":" 30 минут"
     },
     {
+        "id":"9",
         "name": "Татьяна",
         "lastname": "Васильева",
         "experience": "Стаж 11 лет",
         "profession": "Хирург",
         "date": "15.05.2025",
-        "hour":"15:30"
+        "hour":"15:30",
+        "consultation":"консультация",
+        "minutes":" 25 минут"
     },
     {
+        "id":"10",
         "name": "Виктория",
         "lastname": "Петрова",
         "experience": "Стаж 13 лет",
         "profession": "Акушер-гинеколог",
         "date": "28.03.2025",
-        "hour":"17:25"
+        "hour":"17:25",
+        "consultation":"консультация",
+        "minutes":" 30 минут"
     }
 ]
