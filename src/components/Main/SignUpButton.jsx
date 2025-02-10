@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import "./SignUpButton.css"
-import { LanguageContexte } from "../../../context/languageContexte"
-import { translate } from "../../../utils/translate"
+import { LanguageContexte } from "../../context/languageContexte"
+import { translate } from "../../utils/translate"
 
 
 function SignUpButton(){

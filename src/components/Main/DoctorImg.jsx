@@ -1,8 +1,8 @@
 import "./DoctorImg.css"
-import rightUp from"../../images/rightUp.png"
-import rightUp2 from "../../images/rightUp2.png"
-import docfon from "../../images/docFon.png"
-import docBody from "../../images/doxBody.png"
+import rightUp from"../images/rightUp.png"
+import rightUp2 from "../images/rightUp2.png"
+import docfon from "../images/docFon.png"
+import docBody from "../images/doxBody.png"
 
 function DoctorImg(){
   return(

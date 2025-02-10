@@ -1,8 +1,8 @@
 
 import { useContext } from "react"
 import "./OnlineConsuletion.css"
-import { LanguageContexte } from "../../../context/languageContexte"
-import { translate } from "../../../utils/translate"
+import { LanguageContexte } from "../../context/languageContexte"
+import { translate } from "../../utils/translate"
 
 function OnlinneConsuletion(){
   const {lang}=useContext(LanguageContexte)

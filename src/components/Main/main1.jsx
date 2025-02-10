@@ -3,7 +3,8 @@ import SignUpButton from "./SignUpButton"
 import DoctorImg from "./DoctorImg"
 import MakeAnAppointmenWithADoctor from "./MakeAnAppointment"
 import Mynots from "./Mynotes"
-import DateManthOligaFull from "./DateManthOligaFull"
+import { Outlet } from "react-router-dom"
+
 
 
 
@@ -14,11 +15,11 @@ function Main() {
             <SignUpButton />
             <DoctorImg />
             <MakeAnAppointmenWithADoctor/>
+            
             <Mynots/>
-            <DateManthOligaFull />
-            <DateManthOligaFull />
-            <DateManthOligaFull />
-           
+            <Outlet/>
+        
+          
         </>
     )
 }
