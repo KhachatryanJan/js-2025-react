@@ -7,6 +7,7 @@ import video from "../images/video-camera .png"
 import { useContext } from "react"
 import oliga from "../images/Oliga.png"
 import { Link } from "react-router-dom"
+import { DoctorContexte } from "../../context/DoctorConstext"
 
 
 
@@ -14,13 +15,14 @@ import { Link } from "react-router-dom"
 function DateManthOligaFull(doc) {
 
    const { lang } = useContext(LanguageContexte)
- 
- 
+  // const {doc}=useContext(DoctorContexte)
+   //console.log(doc.id, doc.name);
+
    return (
       < div className="doc-cont1">
 
          <div className="data-videomunication">
-               
+
             <img src={date} className="data"></img>
             <p className="dat">{doc.date}</p>
             <img src={clock} class="hour"></img>
@@ -39,11 +41,11 @@ function DateManthOligaFull(doc) {
          </div>
 
          <div className="Butt-Planned-ViewEntry-ViewTheResolution">
-            <button className="but3"><p className="Planned">{translate("Planned",lang)}</p></button>
-          <Link to={`/docinfo/${doc.id}`}> <button className="but4"><p className="ViewEntry">{translate("ViewTheRecording",lang)}</p></button></Link> 
-            <button className="but5"><p className="ViewTheResolution">{translate("ViewTheDecree",lang)}</p></button>
-        </div>
-      
+            <button className="but3"><p className="Planned">{translate("Planned", lang)}</p></button>
+            <Link to={`/docinfo/${doc.id}`}> <button className="but4"><p className="ViewEntry">{translate("ViewTheRecording", lang)}</p></button></Link>
+            <button className="but5"><p className="ViewTheResolution">{translate("ViewTheDecree", lang)}</p></button>
+         </div>
+
       </div>
    )
 }

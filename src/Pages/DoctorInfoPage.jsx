@@ -7,15 +7,15 @@ import grape1 from "../img/group1.png"
 import grap3 from "../img/grap3.png"
 import mortarBoard from "../img/mortarBoard.png"
 import doctorsDate from "../DoctorsInfromation/doctorsInfromation.json"
-import {  useEffect, useState,  } from "react"
-
+import {  useContext, useEffect, useState} from "react"
+import { DoctorContexte } from "../context/DoctorConstext"
 
 function DoctorInfoPage(){
   const {id} =useParams();
   
-
-  const [doc,setDoc]=useState(doctorsDate)
-console.log(doc);
+    const [doc,setDoc]=useState(doctorsDate)
+ // const {doc,setDoc}=useContext(DoctorContexte)
+  console.log(doc.id, doc.name);
 
   useEffect((()=>{
      const FoundDoctor=doctorsDate.find((doctor)=>doctor.id === id)

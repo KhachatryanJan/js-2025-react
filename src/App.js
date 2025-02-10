@@ -8,20 +8,23 @@ import Footer from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import DoctorInfoPage from './Pages/DoctorInfoPage';
 import DateManthOligaFull from './components/Main/DateManthOligaFull';
+import DoctorProvider from './context/DoctorConstext';
 
 
 function App() {
   return (
     <LanguageProvider >
+      <DoctorProvider>
     <HeaderFull/>
     <Routes>
        <Route path="/" element={<Main/>}>
        <Route path="Upcoming" element={<DateManthOligaFull/>}/>
          <Route path="Past" element={<DateManthOligaFull/>}/>
         </Route>
-       <Route path ={`/docinfo`} element={<DoctorInfoPage/>}/>
+       <Route path ={`/docinfo/:id`} element={<DoctorInfoPage/>}/>
     </Routes>
     <Footer/>
+    </DoctorProvider>
    </LanguageProvider>
   );
 }
